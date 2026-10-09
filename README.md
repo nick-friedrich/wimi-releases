@@ -6,6 +6,8 @@ A macOS menu bar app that puts window switching, window layouts, an app launcher
 
 ![The Wimi drawer showing open windows with live previews](screenshots/windows.jpg)
 
+![Two windows tiled side by side with the Wimi drawer open](screenshots/tiled.jpg)
+
 | Layouts | Compact drawer | Always-visible strip |
 |---|---|---|
 | ![Layout picker](screenshots/layouts.jpg) | ![Drawer in normal width](screenshots/drawer.jpg) | ![Always-visible window strip](screenshots/strip.jpg) |
