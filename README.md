@@ -4,6 +4,10 @@ A macOS menu bar app that puts window switching, window layouts, an app launcher
 
 > Wimi is closed source. This repository is used only for **downloads, release notes and feedback**.
 
+![Wimi switching four windows between layouts](media/wimi-demo.gif)
+
+▶️ **[Watch the full 45-second demo](media/wimi-demo.mp4)**
+
 ![The Wimi drawer showing open windows with live previews](screenshots/windows.jpg)
 
 ![Two windows tiled side by side with the Wimi drawer open](screenshots/tiled.jpg)
