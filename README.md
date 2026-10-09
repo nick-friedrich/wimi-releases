@@ -36,7 +36,7 @@ shasum -a 256 ~/Downloads/Wimi-*.dmg
 
 - **Drawer:** slides in when the mouse rests at the left or right screen edge, or opens with a shortcut. Works on multiple displays.
 - **Window switcher:** every open window with live previews. Hold ⌥Tab to switch, with search and keyboard navigation.
-- **Window layouts:** halves, thirds, quarters, 2/3–1/3, stacked and main+side layouts for each display. Drag a window onto a slot to place it.
+- **Window layouts:** halves, thirds, quarters, 2/3–1/3, stacked and main+side layouts for each display, with animated placement. Drag a window onto a slot to place it, or use the keyboard: Hyper + arrows moves focus, Hyper ⇧ + arrows swaps windows, Hyper R rotates them.
 - **Global search:** one search across windows, apps, layouts and actions. Start typing anywhere in the drawer.
 - **App launcher:** an icon grid with search that learns which apps you open most.
 - **Emoji picker:** search, recents, and insertion into the current app.
@@ -52,6 +52,10 @@ shasum -a 256 ~/Downloads/Wimi-*.dmg
 ## Privacy
 
 Wimi makes no network requests. Window history and clipboard data stay on your Mac.
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for what changed in each version.
 
 ## Feedback
 
