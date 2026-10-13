@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Wimi</title>
+        <item>
+            <title>0.3.0</title>
+            <pubDate>Tue, 13 Oct 2026 06:30:51 +0200</pubDate>
+            <link>https://github.com/nick-friedrich/wimi-releases</link>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Wimi now keeps itself up to date, and gets Show desktop, one-key float / join and a new icon.
+
+### New in 0.3.0
+- **Automatic updates:** Wimi checks for new versions once a day and offers to install them. Turn it off or check by hand in Settings → General, or use Check for Updates… in the menu bar. This is the last version you need to install by hand.
+- **Show desktop:** Hyper D (or the new button in the drawer header) hides every app so you see the desktop. Press it again to bring back the window you were in; the rest stay hidden until you switch to them.
+- **Float / join with one key:** Hyper F floats the focused window out of its layout, and pressing it again puts it back in. (Replaces the unbound "Pop out window" shortcut.)
+- **Join all:** a button at the top of the Windows drawer and the window strip puts every window into the layout of its screen, including floating ones.
+- New app icon and a ribbon menu bar icon.
+
+### Improvements
+- Layouts mode: pick a layout with the arrow keys.
+
+### Fixes
+- Buttons in the drawer now show their description when you hover over them.
+
+### Install
+Download `Wimi-0.3.0-5.dmg` below, open it and drag Wimi into Applications (replace the old version). Requires macOS 14 or later. Universal (Apple silicon and Intel), signed with a Developer ID and notarized by Apple.
+]]></description>
+            <enclosure url="https://github.com/nick-friedrich/wimi-releases/releases/download/v0.3.0/Wimi-0.3.0-5.dmg" length="5189113" type="application/octet-stream" sparkle:edSignature="KY1nnOExkVSEEbmJdzxkIDQdJQ/iH/yGLGWrs2RQ5wrA9cNm0BeSIWLhigajyh/eRO2Wj/CwcaIOpHE3E1PnBg=="/>
+        </item>
+    </channel>
+</rss>

@@ -2,6 +2,21 @@
 
 Downloads for every version are on the [Releases](https://github.com/nick-friedrich/wimi-releases/releases) page.
 
+## 0.3.0
+
+### New
+- **Automatic updates:** Wimi checks for new versions once a day and offers to install them. Turn it off or check by hand in Settings → General, or use Check for Updates… in the menu bar. Coming from 0.2.0 or earlier, install this version manually once.
+- **Show desktop:** Hyper D (or the button in the drawer header) hides every app. Press it again to bring back the window you were in.
+- **Float / join with one key:** Hyper F floats the focused window out of its layout and puts it back in.
+- **Join all:** a button in the Windows drawer and the window strip puts every window into the layout of its screen, including floating ones.
+- New app icon and a ribbon menu bar icon.
+
+### Improved
+- Layouts mode: pick a layout with the arrow keys.
+
+### Fixed
+- Buttons in the drawer show their description on hover.
+
 ## 0.2.0
 
 ### New

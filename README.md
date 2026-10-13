@@ -51,7 +51,7 @@ shasum -a 256 ~/Downloads/Wimi-*.dmg
 
 ## Privacy
 
-Wimi makes no network requests. Window history and clipboard data stay on your Mac.
+Wimi's only network request is a daily update check: it loads the release list (`appcast.xml`) from this repo. No usage or personal data is sent, and you can turn the check off in Settings → General. Window history and clipboard data stay on your Mac.
 
 ## Changelog
 
