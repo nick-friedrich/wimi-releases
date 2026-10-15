@@ -4,6 +4,10 @@ A macOS menu bar app that puts window switching, window layouts, an app launcher
 
 > Wimi is closed source. This repository is used only for **downloads, release notes and feedback**.
 
+> [!NOTE]
+> **Wimi is free while in beta.** With version 1.0 it becomes a one-time purchase (no subscription) with a 30-day free trial.
+> **[Join the launch list](https://getwimi.app/#signup) to get 50% off at launch.** The first testers who helped shape Wimi get a free license.
+
 ![Wimi switching four windows between layouts](media/wimi-demo.gif)
 
 ▶️ **[Watch the full 45-second demo](media/wimi-demo.mp4)**
@@ -59,7 +63,7 @@ See [CHANGELOG.md](CHANGELOG.md) for what changed in each version.
 
 ## Feedback
 
-Found a bug or have an idea? [Open an issue](../../issues).
+Found a bug or have an idea? [Open an issue](../../issues), or choose **Send Feedback…** in Wimi's menu bar menu.
 
 ## Uninstall
 

@@ -2,6 +2,15 @@
 
 Downloads for every version are on the [Releases](https://github.com/nick-friedrich/wimi-releases/releases) page.
 
+## 0.3.1
+
+### New
+- The menu bar menu has **Get Launch Discount…** (join the 1.0 launch list for 50% off) and **Send Feedback…**.
+
+### Fixed
+- **Show desktop** brings back every window you could see (all windows of a split layout), not just the front one.
+- The **Hyper key** no longer fails silently on external keyboards without Input Monitoring access: Wimi asks for it, and Settings shows a warning with a link to grant it.
+
 ## 0.3.0
 
 ### New
