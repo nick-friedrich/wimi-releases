@@ -3,6 +3,27 @@
     <channel>
         <title>Wimi</title>
         <item>
+            <title>0.3.1</title>
+            <pubDate>Thu, 15 Oct 2026 19:36:14 +0200</pubDate>
+            <link>https://github.com/nick-friedrich/wimi-releases</link>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Show desktop now brings back all your windows, and the Hyper key works reliably on external keyboards.
+
+### New in 0.3.1
+- The menu bar menu has **Get Launch Discount…** (join the 1.0 launch list for 50% off) and **Send Feedback…**.
+
+### Fixes
+- **Show desktop** brings back every window you could see (all windows of a split layout), not just the front one; parked and covered windows stay hidden.
+- The **Hyper key** no longer fails silently on external keyboards when Wimi lacks Input Monitoring access: Wimi asks for it, and Settings shows a warning with a link to grant it.
+
+### Install
+Wimi 0.3.0 updates itself: use Check for Updates… in the menu bar, or wait for the daily check. Coming from 0.2.0 or earlier, download `Wimi-0.3.1-6.dmg` below, open it and drag Wimi into Applications (replace the old version). Requires macOS 14 or later. Universal (Apple silicon and Intel), signed with a Developer ID and notarized by Apple.
+]]></description>
+            <enclosure url="https://github.com/nick-friedrich/wimi-releases/releases/download/v0.3.1/Wimi-0.3.1-6.dmg" length="5203589" type="application/octet-stream" sparkle:edSignature="yZiYL3QUAdaqI5MKn7B6WDx7G2jn2IY4h4TYBYddi9MpSK/D4DluZ/tPasV000pBjWiQpkPtCb6x54EzfJZZDQ=="/>
+        </item>
+        <item>
             <title>0.3.0</title>
             <pubDate>Tue, 13 Oct 2026 06:30:51 +0200</pubDate>
             <link>https://github.com/nick-friedrich/wimi-releases</link>
