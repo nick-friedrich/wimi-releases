@@ -3,6 +3,39 @@
     <channel>
         <title>Wimi</title>
         <item>
+            <title>0.4.0</title>
+            <pubDate>Tue, 20 Oct 2026 21:46:18 +0200</pubDate>
+            <link>https://github.com/nick-friedrich/wimi-releases</link>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Workspaces arrive (early): nine of them, one key each. Plus a workspace bar, a window strip on every display, and two new backgrounds.
+
+### New in 0.4.0
+- **Workspaces (early):** Hyper 1–9 switches between nine workspaces, Hyper ⇧1–9 sends the focused window to one. Windows slide out one side and the new workspace slides in from the other. Each workspace keeps its own windows and its own layout on each display; a new workspace starts with the layout of the one you came from. The window switcher shows the current workspace, and search finds windows in all of them and takes you there. Minimized windows stay with their workspace, and everything survives quitting and reopening Wimi.
+- **Workspace bar (optional):** a bar at the top or bottom of every display with the workspaces, that display's windows and a layout menu. Turn it on in Settings → Windows, the drawer's Layouts tab or the switches at the bottom of the drawer's Windows tab. Drag a window's icon onto a workspace number, or right-click it, to send it there. Small or Large, its own theme, icons with titles or icons only. The workspace number can also show in the menu bar.
+- **Strip on every display:** Settings → General → Bar display → All displays gives each display its own always-visible strip with just that display's windows. It's the default when you turn Always visible on.
+- **Floating apps:** choose apps in Settings → Windows whose windows stay out of layouts. System Settings floats by default.
+- **New backgrounds:** Midnight (deep indigo glass, always dark) and Liquid Glass (clear Liquid Glass on macOS 26 and later, next to the frosted Glass). Settings → General → Theme.
+
+### Improved
+- The drawer has a roomier look: corners that match your windows, more padding, a taller search field, bigger search results and clipboard entries shown as cards.
+- The always-visible strip and workspace bar use much less CPU, so the rest of your Mac stays snappier: windows whose titles keep changing (terminals, progress, loading pages) no longer make Wimi rescan every app.
+- The emoji picker shows six bigger emoji per row.
+- The switches at the bottom of the drawer's Windows tab are tidier rows with icons.
+
+### Fixes
+- The welcome window no longer disappears when macOS reopens Wimi after you grant a permission; it comes back at the step you were on.
+- Show desktop also clears Finder's windows, and no longer leaves apps without a visible window hidden afterwards.
+- Unhiding an app no longer brings back windows that a layout had parked out of sight.
+- A dialog sheet that would hang off the screen (like an open panel on a window in a narrow slot) now fits: Wimi moves the window aside while it's open and puts it back afterwards.
+
+### Install
+Wimi 0.3.0 and later update themselves: use Check for Updates… in the menu bar, or wait for the daily check. Coming from 0.2.0 or earlier, download `Wimi-0.4.0-7.dmg` below, open it and drag Wimi into Applications (replace the old version). Requires macOS 14 or later. Universal (Apple silicon and Intel), signed with a Developer ID and notarized by Apple.
+]]></description>
+            <enclosure url="https://github.com/nick-friedrich/wimi-releases/releases/download/v0.4.0/Wimi-0.4.0-7.dmg" length="5834926" type="application/octet-stream" sparkle:edSignature="7taHG8eTkXL4W4LxLHmBbWzcArKT9ITK32B82FFYiQkqrXaMUdldhCNzpB4qyXrsmPUvrUMnlk1Zai/I9cStAQ=="/>
+        </item>
+        <item>
             <title>0.3.1</title>
             <pubDate>Thu, 15 Oct 2026 19:36:14 +0200</pubDate>
             <link>https://github.com/nick-friedrich/wimi-releases</link>
