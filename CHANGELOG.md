@@ -2,6 +2,26 @@
 
 Downloads for every version are on the [Releases](https://github.com/nick-friedrich/wimi-releases/releases) page.
 
+## 0.4.0
+
+### New
+- **Workspaces (early):** Hyper 1–9 switches between nine workspaces, Hyper ⇧1–9 sends the focused window to one. Each workspace keeps its own windows and its own layout on each display; search finds windows in all of them.
+- **Workspace bar (optional):** a bar at the top or bottom of every display with the workspaces, that display's windows and a layout menu. Drag a window's icon onto a workspace number to send it there.
+- **Strip on every display:** Settings → General → Bar display → All displays gives each display its own always-visible strip with just that display's windows.
+- **Floating apps:** choose apps in Settings → Windows whose windows stay out of layouts.
+- **New backgrounds:** Midnight and Liquid Glass (macOS 26 and later). Settings → General → Theme.
+
+### Improved
+- The drawer has a roomier look: corners that match your windows, more padding, bigger search results and clipboard cards.
+- The always-visible strip and workspace bar use much less CPU.
+- The emoji picker shows six bigger emoji per row.
+
+### Fixed
+- The welcome window comes back at the step you were on when macOS reopens Wimi after granting a permission.
+- Show desktop also clears Finder's windows and no longer leaves apps hidden.
+- Unhiding an app no longer brings back windows a layout had parked.
+- Dialog sheets that would hang off the screen now fit.
+
 ## 0.3.1
 
 ### New
