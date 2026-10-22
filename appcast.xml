@@ -3,6 +3,27 @@
     <channel>
         <title>Wimi</title>
         <item>
+            <title>0.5.0</title>
+            <pubDate>Thu, 22 Oct 2026 06:06:04 +0200</pubDate>
+            <link>https://github.com/nick-friedrich/wimi-releases</link>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[A clock and calendar for the workspace bar and the drawer, and (experimental) a drawer that opens from the top or bottom of the screen.
+
+### New in 0.5.0
+- **Top and bottom (experimental):** the drawer can open from the top or bottom edge too, handy as an app launcher (Settings → General → Drawer → Side). The always-visible strip follows it as a row of window cards and stacks with the workspace bar when both are on the same edge. Some modes don't fit the wide drawer perfectly yet, so tell us how it works for you.
+- **Clock and calendar:** an optional clock in the workspace bar (off by default). Click it for a month calendar. Pick how the time and date read, including German "14:32 Uhr", in Settings → General → Clock & Calendar or by right-clicking the clock.
+- **Calendar in the drawer:** a Calendar mode with the month and week numbers. Calendar events can be shown in both (off by default; asks for Calendars access). Double-click a day or use the button next to the month to open your calendar app.
+- **Reorder the workspace bar:** drag windows in the bar to put them in your order. With all workspaces shown, drop a window into another workspace's group to move it there. The order is kept across restarts.
+- **Collapse the workspace numbers:** the arrow next to them shows only workspaces with windows, plus the next free one.
+
+### Install
+Wimi 0.3.0 and later update themselves: use Check for Updates… in the menu bar, or wait for the daily check. Coming from 0.2.0 or earlier, download `Wimi-0.5.0-8.dmg` below, open it and drag Wimi into Applications (replace the old version). Requires macOS 14 or later. Universal (Apple silicon and Intel), signed with a Developer ID and notarized by Apple.
+]]></description>
+            <enclosure url="https://github.com/nick-friedrich/wimi-releases/releases/download/v0.5.0/Wimi-0.5.0-8.dmg" length="6148433" type="application/octet-stream" sparkle:edSignature="zvXwo1/qW1lFbhcnIpXRMdfyeoVMA7yGW+OZ/g0rW9Q1d7H8gsoOxMNThuJ/0Mewkn7BZym9TpKjtnDcHeW0Ag=="/>
+        </item>
+        <item>
             <title>0.4.0</title>
             <pubDate>Tue, 20 Oct 2026 21:46:18 +0200</pubDate>
             <link>https://github.com/nick-friedrich/wimi-releases</link>
