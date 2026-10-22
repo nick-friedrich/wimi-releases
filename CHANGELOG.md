@@ -2,6 +2,15 @@
 
 Downloads for every version are on the [Releases](https://github.com/nick-friedrich/wimi-releases/releases) page.
 
+## 0.5.0
+
+### New
+- **Top and bottom (experimental):** the drawer can open from the top or bottom edge, handy as an app launcher. The always-visible strip follows it and stacks with the workspace bar.
+- **Clock and calendar:** an optional clock in the workspace bar; click it for a month calendar. Settings → General → Clock & Calendar.
+- **Calendar in the drawer:** a Calendar mode with week numbers and optional calendar events.
+- **Reorder the workspace bar** by dragging its windows, also into another workspace's group.
+- **Collapse the workspace numbers** to the ones with windows.
+
 ## 0.4.0
 
 ### New
