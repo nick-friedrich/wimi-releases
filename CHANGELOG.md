@@ -2,6 +2,40 @@
 
 Downloads for every version are on the [Releases](https://github.com/nick-friedrich/wimi-releases/releases) page.
 
+## 1.0.0
+
+Wimi 1.0: free to use, with Wimi Pro for the power features. Everyone gets 30 days of Pro to try it, and for six weeks Pro is half price.
+
+### Free and Pro
+Wimi stays free: the drawer, the window switcher with live previews and ⌥Tab, search, the app launcher, emoji, Keep Awake, the Hyper key, and the Fullscreen, Staged and Halves layouts.
+
+**Wimi Pro** adds:
+- **Advanced layouts:** thirds, quarters, 2/3–1/3, stacked and main+side.
+- **Staged window size:** size the staged window with a slider in the Layouts drawer or by dragging its edges. Each display and workspace keeps its own size. This replaces the Small/Medium/Large setting.
+- **Workspaces** and the **workspace bar**, including the workspace number in the menu bar.
+- **The always-visible strip.**
+- **Clipboard history.**
+- **Glass themes:** Glass, Liquid Glass, Sheet and Midnight.
+
+Pro is **$19.99 once** (plus tax): no subscription, and your key works on two Macs. **Launch offer: $9.99 with the code LAUNCH50 until December 22.** Buy it from Settings → License, where you also enter your key.
+
+**Updating from a beta?** Thank you for testing! Everything stays unlocked for 30 days from this update. After that, Wimi keeps working on the free plan, and your Pro settings (layouts, workspaces, the bar, your theme) wait for you until you buy. Nothing is deleted.
+
+### New
+- **Settings → License:** see your trial, buy Pro and enter your key. The sparkle button above Settings in the drawer takes you there.
+- **Settings → Feedback:** email us from your mail app (or copy the address) or report a bug on GitHub.
+- With all workspaces shown, the window switcher can list windows most recently used first instead of grouped by workspace ("Group by workspace" in the drawer footer and Settings → Windows). The workspace bar keeps its grouping.
+- The welcome tour ends with a page about Wimi Pro and where your trial stands.
+
+### Improved
+- The drawer can reopen on the tab you left it on: Settings → General → Open in → Last used tab. Scrolling over the drawer's tab bar switches tabs.
+- The drawer's see-through backgrounds (Transparency, Sheet, Glass, Liquid Glass) have a half-transparent wash behind the content, so text stays readable over a bright desktop.
+- Wimi sends one anonymous event when your trial starts, so we know how many people try it: the event and the Wimi version, nothing else. Turn it off on the welcome screen or in Settings → General → Privacy.
+
+### Fixes
+- Steam's windows show up in the window switcher and join layouts. Steam draws them from a helper process with its own title bar, which Wimi used to skip.
+- ⌘Tab or a Dock click to Finder switches to the workspace holding its window, like every other app. Clicking the desktop still doesn't switch.
+
 ## 0.5.0
 
 ### New
