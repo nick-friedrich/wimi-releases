@@ -2,6 +2,22 @@
 
 Downloads for every version are on the [Releases](https://github.com/nick-friedrich/wimi-releases/releases) page.
 
+## 1.0.1
+
+Fixes for setups with several displays, and faster workspace switches.
+
+### Improved
+- Switching workspaces starts about twice as fast, and windows of apps with windows in both workspaces (Safari, Finder) no longer pause mid-slide.
+- The first time Wimi hides a window, it offers once to open Desktop & Dock settings if "Group windows by application" is off, which keeps Mission Control readable.
+
+### Fixes
+- Hidden windows no longer stay visible or move to another workspace when a display's bottom corners are blocked by its neighbors, as can happen with three monitors or a laptop above a wider display.
+- Dragging a tiled window to a display without a layout gives it back the size it had before the layout.
+- Dragging a staged window to a smaller display no longer snaps it back or shrinks your saved staged size.
+- Windows that Wimi places freely (dragged to a display without a layout, or popped out) no longer cover the workspace bar.
+- Windows waiting behind a layout in another workspace stay in that workspace when a display disconnects.
+- Switching workspaces tries again if a busy app missed the move, so its window doesn't stay hidden.
+
 ## 1.0.0
 
 Wimi 1.0: free to use, with Wimi Pro for the power features. Everyone gets 30 days of Pro to try it, and for six weeks Pro is half price.
