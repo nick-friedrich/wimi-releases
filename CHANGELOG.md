@@ -2,6 +2,20 @@
 
 Downloads for every version are on the [Releases](https://github.com/nick-friedrich/wimi-releases/releases) page.
 
+## 1.0.2
+
+Layouts that leave your windows usable: they get their size back when they leave a layout, and apps that can't shrink to fit no longer push their neighbors off screen.
+
+### New
+- Reset a layout's window sizes, for example to get 2/3 – 1/3 back after dragging it to halves: choose the active layout again (click it, pick it from the workspace bar or press its shortcut), press Hyper 0 (⌃⌥⌘0), or search "Reset layout sizes". Change the key in Settings → Shortcuts.
+- New setting in Settings → Windows, "Put windows back when quitting Wimi": tiled windows return to where they were before Wimi arranged them.
+- What's New… in the menu bar menu opens the changelog at getwimi.app/changelog, in case you closed the update notes too quickly.
+
+### Improved
+- Apps that can't get as small as their slot (Notion, Xcode) now overlap the window next to them instead of squeezing it or pushing it off screen, so every window stays usable. The window you're using stays on top; click the other to bring it forward. A warning sign in the workspace bar, the window switcher and the Layouts view says which app needs more room.
+- Turning a layout off puts every window back where it was before Wimi tiled it, not just the hidden ones.
+- With "Moving a window yourself: Takes it out of the layout", dragging a window out of its slot gives it back its original size.
+
 ## 1.0.1
 
 Fixes for setups with several displays, and faster workspace switches.
