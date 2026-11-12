@@ -2,6 +2,24 @@
 
 Downloads for every version are on the [Releases](https://github.com/nick-friedrich/wimi-releases/releases) page.
 
+## 1.1.0
+
+Design your own layouts, keep windows clear of third-party docks, and find out when another app is using Wimi's shortcuts too.
+
+### New
+- Custom layouts (Pro): make your own layout from up to four columns of one to three stacked windows, and drag its dividers to set the sizes. Start from the New Layout card in Layouts, right-click a layout to edit or copy it, or click Save as Layout to keep the shape you've dragged your windows into. Custom layouts work in search, the workspace bar menu and Next / Previous layout.
+
+### Improved
+- Screen margins: in Settings → Windows, set how much space layouts leave free at the top, bottom, left and right of each display, so windows stay clear of third-party docks such as DockDoor or other bars that cover them.
+- When another app, such as Raycast or Rectangle, reacts to one of Wimi's shortcuts and moves your windows too, Wimi now tells you once and names the window managers that are running, so you can remove the duplicate shortcut.
+
+### Fixes
+- A window too big for its slot no longer trades places with its neighbor when you focus it with Hyper + arrow keys.
+- Temporary license-server errors, rate limits and firewall responses no longer remove an activated license. Failed deactivation keeps the license and activation ID so you can retry.
+- Turning on Hyper no longer erases other key remappings, such as `hidutil` remaps or macOS's per-keyboard modifier key settings. Turning it off or quitting restores the previous Caps Lock mapping.
+- Entering a license key for a different product no longer uses up one of that key's activations.
+- Unplugging an external keyboard no longer releases Hyper or modifiers you're holding on another keyboard.
+
 ## 1.0.2
 
 Layouts that leave your windows usable: they get their size back when they leave a layout, and apps that can't shrink to fit no longer push their neighbors off screen.
