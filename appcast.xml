@@ -3,6 +3,33 @@
     <channel>
         <title>Wimi</title>
         <item>
+            <title>1.2.0</title>
+            <pubDate>Sat, 14 Nov 2026 09:03:45 +0100</pubDate>
+            <link>https://github.com/nick-friedrich/wimi-releases</link>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[A new Scrolling layout you can move with your fingers, and a workspace bar you can shape to your liking.
+
+### New
+- Scrolling layout (Pro): windows sit side by side as columns on a strip wider than the display, always starting at a window's left edge, with the next one peeking in on the right. Scrolling moves the whole strip in one smooth motion that follows quick key presses without waiting. Hyper ← / → and clicking a window scroll it into view; Hyper ⇧ ← / → moves a column along it, and you can drag a window between columns or onto another display's strip. New windows open next to the focused one. Resize a window to change its column's width, or use Column wider / narrower (⅓, ½, ⅔, full) from search or a shortcut you assign.
+- Hold Hyper and scroll over the Scrolling layout to move the strip with your fingers; let go and it glides on and settles at a window's edge. A mouse wheel moves one window per notch. Optionally, a three-finger swipe does the same without a key. Trackpad, mouse and swipe speeds are in Settings → Windows → Scrolling layout.
+- Hyper ⇧ + arrow keys now send the focused window to the next display in that direction once there is no other window that way in its layout. It takes the nearest empty slot of a layout there, or floats at the same spot on a display without one.
+
+### Improved
+- Switching to Scrolling keeps your windows' sizes: a window comes in as wide as it was in the previous layout, and widths and column order you set in Scrolling come back when you return to it from another layout. Choosing Scrolling again while it's active still sets every column to half.
+- The workspace bar lists a Scrolling display's windows in the order of its columns, and dragging a window along the bar moves its column on the strip.
+- The workspace bar can center its windows (Alignment in the bar's right-click menu, or Settings → Windows → Workspaces).
+- The workspace bar's options open with a right-click anywhere on the bar, replacing the ⋯ button. The workspace numbers, the layout menu and the clock can each be hidden (right-click → Show, or Settings).
+- Liquid Glass in the workspace bar is now see-through glass that bends the desktop at its edges; on macOS 27 it looked the same as frosted Glass.
+- Layouts feel quicker: switching layouts several times in a row goes straight to the last one, windows of all apps start sliding together, and Hyper arrow presses made in quick succession are no longer dropped.
+
+### Fixes
+- Chrome and Firefox windows could be seen flying to the screen corner when another window took their place in a layout.
+]]></description>
+            <enclosure url="https://github.com/nick-friedrich/wimi-releases/releases/download/v1.2.0/Wimi-1.2.0-13.dmg" length="6984068" type="application/octet-stream" sparkle:edSignature="nrvTvOjSuqu+rcsRtSXoiGXujAf4jRQZDOcRKVUvKzSfs0MgdbRY1QxySpzlphZ6mCyohRSvvJjqtMqERw/6Aw=="/>
+        </item>
+        <item>
             <title>1.1.0</title>
             <pubDate>Thu, 12 Nov 2026 05:55:41 +0100</pubDate>
             <link>https://github.com/nick-friedrich/wimi-releases</link>
