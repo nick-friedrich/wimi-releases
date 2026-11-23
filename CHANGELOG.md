@@ -2,6 +2,25 @@
 
 Downloads for every version are on the [Releases](https://github.com/nick-friedrich/wimi-releases/releases) page.
 
+## 1.3.0
+
+Switch workspaces with a swipe, keep your favorite apps in the workspace bar, and find every setting in the new Settings sidebar.
+
+### New
+- Switch workspaces with a three- or four-finger swipe on the trackpad, like Spaces (Settings → Workspaces). Settings shows which macOS gestures to turn off and links to Trackpad settings.
+- Pin apps to the workspace bar. Pinned apps lead the window row: their windows show in their spot, and without a window in the workspace they show as a gray icon that opens the app or brings it forward. Pin from a window’s right-click menu, Settings → Workspaces or your Dock’s apps.
+
+### Improved
+- Settings has a sidebar instead of tabs, with its own pages for Appearance, Drawer, Window Switcher, Layouts and Workspaces, and stays above other windows while it's open.
+- Scrolling: choose three or four fingers for the trackpad swipe. Settings warns when a macOS gesture uses the same fingers and links to Trackpad settings.
+- The window switcher’s footer now uses compact icon toggle buttons, with setting names on hover.
+- Parked and minimized windows in the workspace bar now show at full color instead of faded.
+- If Wimi loses its Accessibility permission, Settings, the welcome tour and the access-needed screen now explain how to get it back, and can reset the permission for Wimi alone.
+
+### Fixes
+- Windows could be assigned to the wrong workspace and stay off-screen when an app adjusted their parking position on multi-display setups.
+- Windows missed while an app was starting now join their layout when activated, with longer launch checks for slow-starting apps.
+
 ## 1.2.0
 
 A new Scrolling layout you can move with your fingers, and a workspace bar you can shape to your liking.
