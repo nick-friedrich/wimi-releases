@@ -2,6 +2,16 @@
 
 Downloads for every version are on the [Releases](https://github.com/nick-friedrich/wimi-releases/releases) page.
 
+## 1.4.0
+
+Try Canvas, a new experimental layout where windows stay wherever you put them on a desktop wider than your screen.
+
+### New
+- Canvas layout (Pro, experimental): your desktop becomes a canvas wider than the screen. Windows keep any position and size and can overlap. Drag a window past the left or right edge to make room, hold Hyper and push the pointer against an edge to scroll, and use Close gaps and Spread out in the window switcher to tidy up. A help box explains it the first time you choose it. Canvas sits below the other layouts and isn't part of Next / Previous layout. Tell us how it works for you.
+
+### Improved
+- The drawer's bottom button row now shows on every tab, with Show desktop and Join all windows in it. The row wraps to a second line when it runs out of room.
+
 ## 1.3.0
 
 Switch workspaces with a swipe, keep your favorite apps in the workspace bar, and find every setting in the new Settings sidebar.
